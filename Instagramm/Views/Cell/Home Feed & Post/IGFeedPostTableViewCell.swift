@@ -41,17 +41,17 @@ final class IGFeedPostTableViewCell: UITableViewCell {
         
         return
         
-        switch post.postType {
-        case .photo:
-            // show image
-            postImageView.sd_setImage(with: post.postURL, completed: nil)
-        case .video:
-            // load and play video
-            player = AVPlayer(url: post.postURL)
-            playerLayer.player = player
-            playerLayer.player?.volume = 0
-            playerLayer.player?.play()
-        }
+//        switch post.postType {
+//        case .photo:
+//            // show image
+//            postImageView.sd_setImage(with: post.postURL, completed: nil)
+//        case .video:
+//            // load and play video
+//            player = AVPlayer(url: post.postURL)
+//            playerLayer.player = player
+//            playerLayer.player?.volume = 5
+//            playerLayer.player?.play()
+//        }
       
     }
     
