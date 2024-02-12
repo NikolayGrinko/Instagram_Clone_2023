@@ -4,7 +4,7 @@
 //
 //  Created by Николай Гринько on 27.05.2023.
 //
-import FirebaseAuth
+//import FirebaseAuth
 import UIKit
 
 struct HomeFeedRenderViewModel {
